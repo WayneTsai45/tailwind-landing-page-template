@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Newsletter() {
+function BottomLaunch() {
   return (
     <section>
       <div class='max-w-6xl mx-auto px-4 sm:px-6'>
@@ -37,4 +37,4 @@ function Newsletter() {
   );
 }
 
-export default Newsletter;
+export default BottomLaunch;

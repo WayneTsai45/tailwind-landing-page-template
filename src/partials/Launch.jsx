@@ -1,14 +1,11 @@
 import React, { useState } from 'react';
-// import Modal from '../utils/Modal';
 
 import HeroImage from '../images/Squeezed_mark-03.png';
 import Flipped from '../images/Squeezed_flipped.png';
 import squeezed from '../images/Squeezed.png';
 import temp from '../images/totoro-hula-hoop.gif';
 
-function HeroHome() {
-
-  const [videoModalOpen, setVideoModalOpen] = useState(false);
+function Launch() {
 
   return (
     <section className="relative bg-gray-900">
@@ -50,4 +47,4 @@ function HeroHome() {
   );
 }
 
-export default HeroHome;
+export default Launch;
