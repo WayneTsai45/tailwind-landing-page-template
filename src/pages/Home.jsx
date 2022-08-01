@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Header from '../partials/Header';
-import HeroHome from '../partials/HeroHome';
+import Launch from '../partials/Launch';
 import FeaturesHome from '../partials/Features';
 import Team from '../partials/Team';
-import Newsletter from '../partials/Newsletter';
+import BottomLaunch from '../partials/BottomLaunch';
 import Footer from '../partials/Footer';
 
 function Home() {
@@ -18,10 +18,10 @@ function Home() {
       <main className="flex-grow">
 
         {/*  Page sections */}
-        <HeroHome />
+        <Launch />
         <FeaturesHome />
         <Team />
-        <Newsletter />
+        <BottomLaunch />
 
       </main>
 

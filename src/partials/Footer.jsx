@@ -11,7 +11,7 @@ function Footer() {
               <li class='mb-0'>
                 <a
                   href='/'
-                  class='text-gray-900 hover:text-indigo-500 transition duration-150 ease-in-out'
+                  class='text-gray-900 hover:text-[#B1DCA7] transition duration-150 ease-in-out'
                 >
                   Home
                 </a>
@@ -23,7 +23,7 @@ function Footer() {
               <li class='mb-0'>
                 <a
                   href='#team'
-                  class='text-gray-900 hover:text-indigo-500 transition duration-150  ease-in-out'
+                  class='text-gray-900 hover:text-[#B1DCA7] transition duration-150  ease-in-out'
                 >
                   Contact
                 </a>
@@ -35,7 +35,7 @@ function Footer() {
               <li class='mb-0'>
                 <a
                   href='https://medium.com'
-                  class='text-gray-900 hover:text-indigo-500 transition duration-150 ease-in-out'
+                  class='text-gray-900 hover:text-[#B1DCA7] transition duration-150 ease-in-out'
                 >
                   Blog
                 </a>
@@ -47,7 +47,7 @@ function Footer() {
               <li class='mb-0'>
                 <a
                   href='https://github.com/oslabs-beta/squeezed/issues'
-                  class='text-gray-900 hover:text-indigo-500 transition duration-150 ease-in-out'
+                  class='text-gray-900 hover:text-[#B1DCA7] transition duration-150 ease-in-out'
                 >
                   Report Issues
                 </a>
