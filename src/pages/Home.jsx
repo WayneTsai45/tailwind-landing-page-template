@@ -4,7 +4,6 @@ import Header from '../partials/Header';
 import HeroHome from '../partials/HeroHome';
 import FeaturesHome from '../partials/Features';
 import Team from '../partials/Team';
-import Testimonials from '../partials/Testimonials';
 import Newsletter from '../partials/Newsletter';
 import Footer from '../partials/Footer';
 
@@ -22,13 +21,12 @@ function Home() {
         <HeroHome />
         <FeaturesHome />
         <Team />
-        {/* <Testimonials /> */}
-        {/* <Newsletter /> */}
+        <Newsletter />
 
       </main>
 
       {/*  Site footer */}
-      {/* <Footer /> */}
+      <Footer />
 
     </div>
   );
