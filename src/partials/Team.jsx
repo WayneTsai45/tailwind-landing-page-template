@@ -1,5 +1,8 @@
 import React from 'react';
-import Wayne from '../images/totoro-hula-hoop.gif';
+import Wayne from '../images/Wayne.png';
+import Alexa from '../images/Alexa.jpg';
+import James from '../images/James.jpg';
+import Carol from '../images/Carol.jpg';
 
 function FeaturesBlocks() {
   return (
@@ -16,7 +19,7 @@ function FeaturesBlocks() {
         <div className='bg-gray-900 py-12 md:py-20'>
           {/* Section header */}
           <div className='max-w-3xl mx-auto text-center pb-12 md:pb-20'>
-            <h2 className='h2 mb-4 text-gray-200'>Meet our Team !!</h2>
+            <h2 className='h2 mb-4 text-gray-200'>Meet the Team!</h2>
           </div>
 
           {/* Items */}
@@ -28,8 +31,8 @@ function FeaturesBlocks() {
                   href='https://www.linkedin.com/in/alexarobertss'
                   class='block relative'
                 >
-                  <img alt='profil' src={Wayne}
-                  class="mx-auto object-cover rounded-full h-28 w-28 "/>
+                  <img alt='profil' src={Alexa}
+                  class="mx-auto object-cover rounded-full h-40 w-40 "/>
                 </a>
               </div>
               <h4 class='text-xl font-bold leading-snug tracking-tight mb-1'>
@@ -71,8 +74,8 @@ function FeaturesBlocks() {
                   href='https://www.linkedin.com/in/carol-xia-2bb508134/'
                   class='block relative'
                 >
-                  <img alt='profil' src={Wayne}
-                  class="mx-auto object-cover rounded-full h-28 w-28 "/>
+                  <img alt='profil' src={Carol}
+                  class="mx-auto object-cover rounded-full h-40 w-40  "/>
                 </a>
               </div>
               <h4 class='text-xl font-bold leading-snug tracking-tight mb-1'>
@@ -114,8 +117,8 @@ function FeaturesBlocks() {
                   href='https://www.linkedin.com/in/jamesminhbui/'
                   class='block relative'
                 >
-                  <img alt='profil' src={Wayne}
-                  class="mx-auto object-cover rounded-full h-28 w-28 "/>
+                  <img alt='profil' src={James}
+                  class="mx-auto object-cover rounded-full h-40 w-40  "/>
                 </a>
               </div>
               <h4 class='text-xl font-bold leading-snug tracking-tight mb-1'>
@@ -158,7 +161,7 @@ function FeaturesBlocks() {
                   class='block relative'
                 >
                   <img alt='profil' src={Wayne}
-                  class="mx-auto object-cover rounded-full h-28 w-28 "/>
+                  class="mx-auto object-cover rounded-full h-40 w-40  "/>
                 </a>
               </div>
               <h4 class='text-xl font-bold leading-snug tracking-tight mb-1'>
