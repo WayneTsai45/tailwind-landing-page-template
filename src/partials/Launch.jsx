@@ -19,7 +19,7 @@ function Launch() {
           <div className="text-center pb-12 md:pb-16">
           <img className="mx-auto" src={squeezed} width="768" height="432" alt="Hero" />
             <div className="max-w-xl mx-auto">
-              <p className="text-3xl text-gray-200 mb-8" data-aos="zoom-y-out" data-aos-delay="150">A charming web application tool built for developers for Fresh development.</p>
+              <p className="text-3xl text-gray-200 mb-8" data-aos="zoom-y-out" data-aos-delay="150">A charming prototyping tool built for Fresh development.</p>
               <div className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center" data-aos="zoom-y-out" data-aos-delay="300">
                 <div>
                   <a className="btn text-white border-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="https://github.com/oslabs-beta/squeezed">GitHub</a>
@@ -36,7 +36,7 @@ function Launch() {
             <div className="relative flex-row justify-center mb-8 ml-100" data-aos="zoom-y-out" data-aos-delay="450">
               <div className="flex justify-center">
                 <img className="mx-auto" src={Flipped} width="768" height="432" />
-                <img className="mx-auto" src={temp} />
+                <img className="mx-auto" src={temp} width="985" height="150"/>
                 <img className="mx-auto" src={HeroImage} width="768" height="432"/>
               </div>
             </div>

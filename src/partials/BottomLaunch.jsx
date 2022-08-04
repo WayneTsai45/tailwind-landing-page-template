@@ -16,7 +16,7 @@ function BottomLaunch() {
                 </h3>
                 <p class='text-gray-300 text-lg mb-6'>
                   Squeezed is excited to launch its alpha version and we are
-                  looking for engineers to try it out and make it even better. blah blah blah alexa sucks
+                  looking for engineers to try it out and make it even better.
                 </p>
                 <a
                   id='Launch-button-in-black-container'

@@ -1,9 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesBg from '../images/Squeezed_mark-03.png';
-import two from '../images/Squeezed logo-03.png';
-import three from '../images/Squeezed logo-01.png';
+import FeaturesBg from '../images/CodePreview.gif';
+import two from '../images/IslandPreview.gif';
+import three from '../images/customize.gif';
+import four from '../images/ProjectButtons.gif';
 // import FeaturesBg from '../images/Squeezed_mark-03.png';
 
 
@@ -58,7 +59,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">1. Live Code Preview</div>
-                    <div className="text-gray-600">Dynamic code generation as HTML elements are dropped onto and moved around the canvas. See the code reorder itself as you move your tags around.</div>
+                    <div className="text-gray-600">Dynamic code generated as HTML elements are dropped onto the canvas. See the code reorder itself as you move your tags around.</div>
                   </div>
                 </a>
                 <a
@@ -68,7 +69,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">2. Live Island Preview</div>
-                    <div className="text-gray-600">Dynamically renders functional islands using the Fresh generated code.</div>
+                    <div className="text-gray-600">Renders styled functional islands using the Fresh generated code.</div>
                   </div>
                 </a>
                 <a
@@ -78,7 +79,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">3. Customization</div>
-                    <div className="text-gray-600">Input styling attributes and see real time updates of your code and island.</div>
+                    <div className="text-gray-600">Input styling attributes to see real time updates of your code and islands.</div>
                   </div>
                 </a>
                 <a
@@ -88,7 +89,7 @@ function Features() {
                 >
                   <div>
                     <div className="font-bold leading-snug tracking-tight mb-1">4. Project Options</div>
-                    <div className="text-gray-600">Create, Delete, Clear, and Load existing projects with the click of a button.</div>
+                    <div className="text-gray-600">Create, Delete, Save, and Load existing projects with the click of a button.</div>
                   </div>
                 </a>
                 
@@ -161,7 +162,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={two} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={four} width="500" height="462" alt="Features bg" />
                   </div>
                 </Transition>
               </div>
