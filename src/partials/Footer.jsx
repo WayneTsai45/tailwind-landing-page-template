@@ -34,7 +34,7 @@ function Footer() {
             <ul class='text-sm'>
               <li class='mb-0'>
                 <a
-                  href='https://medium.com'
+                  href='https://medium.com/@alexaroberts/prototyping-tool-for-the-freshest-deno-framework-3df9c4c718dc'
                   class='text-gray-900 hover:text-[#B1DCA7] transition duration-150 ease-in-out'
                 >
                   Blog
@@ -62,7 +62,7 @@ function Footer() {
           <ul class='flex mb-4 md:order-1 md:ml-4 md:mb-0'>
             <li>
               <a
-                href='https://medium.com'
+                href='https://medium.com/@alexaroberts/prototyping-tool-for-the-freshest-deno-framework-3df9c4c718dc'
                 class='flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out'
                 aria-label='Medium'
               >
@@ -92,7 +92,7 @@ function Footer() {
             </li>
             <li class='ml-4'>
               <a
-                href='https://www.linkedin.com/in/squeezed/' 
+                href='https://www.linkedin.com/company/squeezed-dev/' 
                 class='flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out'
                 aria-label='LinkedIn'
               >

@@ -12,16 +12,16 @@ function BottomLaunch() {
             <div class='relative flex flex-col lg:flex-row justify-between items-center'>
               <div class='text-center lg:text-left lg:max-w-xl'>
                 <h3 class='h3 text-white mb-2'>
-                  Want to start building better?
+                Do you want to start developing better?
                 </h3>
                 <p class='text-gray-300 text-lg mb-6'>
-                  Squeezed is excited to launch its alpha version and we are
-                  looking for engineers to try it out and make it even better.
+                Squeezed is pleased to release its alpha version and is 
+                searching for engineers to test it and improve it.
                 </p>
                 <a
                   id='Launch-button-in-black-container'
                   class='btn text-gray-900 bg-[#B1DCA7] hover:bg-[#FFF962]'
-                  href='https://github.com/orgs/oslabs-beta/teams/squeezed'
+                  href="https://github.com/oslabs-beta/squeezed"
                 >
                   Launch
                 </a>

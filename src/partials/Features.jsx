@@ -1,10 +1,10 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Transition from '../utils/Transition';
 
-import FeaturesBg from '../images/CodePreview.gif';
+import FeaturesBg from '../images/Code_Preview_2.gif';
 import two from '../images/IslandPreview.gif';
 import three from '../images/customize.gif';
-import four from '../images/ProjectButtons.gif';
+import four from '../images/projectButtons.gif';
 // import FeaturesBg from '../images/Squeezed_mark-03.png';
 
 
@@ -26,7 +26,7 @@ function Features() {
   }, [tab])
 
   return (
-    <section className="relative">
+    <section className="relative bg-gray-100">
 <a name="features" ></a>
       {/* Section background (needs .relative class on parent and next sibling elements) */}
       <div className="absolute inset-0 bg-gray-100 pointer-events-none mb-16" aria-hidden="true"></div>
@@ -37,7 +37,7 @@ function Features() {
 
           {/* Section header */}
           <div className="max-w-4xl mx-auto text-center pb-12 md:pb-16">
-            <h1 className="h2 mb-4">Start building faster than ever before. Reclaim time to spend on meaningful work.</h1>
+            <h1 className="h2 mb-4">Begin developing faster than ever before. Reclaim time for meaningful work.</h1>
       
           </div>
 
@@ -99,22 +99,22 @@ function Features() {
             
 
             {/* Tabs items */}
-            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs}>
-              <div className="relative flex flex-col text-center lg:text-right">
+            <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs} display="flex">
+              <div className="relative flex flex-col text-center lg:text-right" style={{marginTop :'220px'}}>
                 {/* Item 1 */}
                 <Transition
                   show={tab === 1}
                   appear={true}
                   className="w-full"
-                  enter="transition ease-in-out duration-700 transform order-first"
+                  enter="transition ease-in-out duration-300 transform order-first"
                   enterStart="opacity-0 translate-y-16"
                   enterEnd="opacity-100 translate-y-0"
                   leave="transition ease-in-out duration-300 transform absolute"
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg" />
+                  <div className="relative inline-flex flex-col" display="flex" position="absolute" margin-top="200px">
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg"/>
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -122,7 +122,7 @@ function Features() {
                   show={tab === 2}
                   appear={true}
                   className="w-full"
-                  enter="transition ease-in-out duration-700 transform order-first"
+                  enter="transition ease-in-out duration-300 transform order-first"
                   enterStart="opacity-0 translate-y-16"
                   enterEnd="opacity-100 translate-y-0"
                   leave="transition ease-in-out duration-300 transform absolute"
@@ -138,7 +138,7 @@ function Features() {
                   show={tab === 3}
                   appear={true}
                   className="w-full"
-                  enter="transition ease-in-out duration-700 transform order-first"
+                  enter="transition ease-in-out duration-300 transform order-first"
                   enterStart="opacity-0 translate-y-16"
                   enterEnd="opacity-100 translate-y-0"
                   leave="transition ease-in-out duration-300 transform absolute"
@@ -154,7 +154,7 @@ function Features() {
                   show={tab === 4}
                   appear={true}
                   className="w-full"
-                  enter="transition ease-in-out duration-700 transform order-first"
+                  enter="transition ease-in-out duration-300 transform order-first"
                   enterStart="opacity-0 translate-y-16"
                   enterEnd="opacity-100 translate-y-0"
                   leave="transition ease-in-out duration-300 transform absolute"
@@ -162,7 +162,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={four} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={four} width="500" height="462" alt="Features bg" mt="500"/>
                   </div>
                 </Transition>
               </div>
