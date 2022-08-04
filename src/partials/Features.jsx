@@ -4,7 +4,7 @@ import Transition from '../utils/Transition';
 import FeaturesBg from '../images/Code_Preview_2.gif';
 import two from '../images/IslandPreview.gif';
 import three from '../images/customize.gif';
-import four from '../images/projectButtons.gif';
+// import four from '../images/projectButtons.gif';
 // import FeaturesBg from '../images/Squeezed_mark-03.png';
 
 
@@ -114,7 +114,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col" display="flex" position="absolute" margin-top="200px">
-                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg"/>
+                    <iframe className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg"></iframe>
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -162,7 +162,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={four} width="500" height="462" alt="Features bg" mt="500"/>
+                    <img className="md:max-w-none mx-auto rounded" src={three} width="500" height="462" alt="Features bg" mt="500"/>
                   </div>
                 </Transition>
               </div>
