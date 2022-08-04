@@ -4,7 +4,7 @@ import Transition from '../utils/Transition';
 import FeaturesBg from '../images/Code_Preview_2.gif';
 import two from '../images/IslandPreview.gif';
 import three from '../images/customize.gif';
-// import four from '../images/projectButtons.gif';
+import four from '../images/buttons.gif';
 // import FeaturesBg from '../images/Squeezed_mark-03.png';
 
 
@@ -100,7 +100,7 @@ function Features() {
 
             {/* Tabs items */}
             <div className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1" data-aos="zoom-y-out" ref={tabs} display="flex">
-              <div className="relative flex flex-col text-center lg:text-right" style={{marginTop :'220px'}}>
+              <div className="relative flex flex-col text-center lg:text-right" style={{marginTop :'200px', marginLeft : '30px'}}>
                 {/* Item 1 */}
                 <Transition
                   show={tab === 1}
@@ -113,8 +113,8 @@ function Features() {
                   leaveStart="opacity-100 translate-y-0"
                   leaveEnd="opacity-0 -translate-y-16"
                 >
-                  <div className="relative inline-flex flex-col" display="flex" position="absolute" margin-top="200px">
-                    <iframe className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="500" height="462" alt="Features bg"></iframe>
+                  <div className="relative inline-flex flex-col">
+                    <img className="md:max-w-none mx-auto rounded" src={FeaturesBg} width="700" alt="Features bg"/>
                   </div>
                 </Transition>
                 {/* Item 2 */}
@@ -130,7 +130,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={two} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={two} width="700" alt="Features bg" />
                   </div>
                 </Transition>
                 {/* Item 3 */}
@@ -146,7 +146,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={three} width="500" height="462" alt="Features bg" />
+                    <img className="md:max-w-none mx-auto rounded" src={three} width="700" alt="Features bg" />
                   </div>
                 </Transition>
                               {/* Item 4 */}
@@ -162,7 +162,7 @@ function Features() {
                   leaveEnd="opacity-0 -translate-y-16"
                 >
                   <div className="relative inline-flex flex-col">
-                    <img className="md:max-w-none mx-auto rounded" src={three} width="500" height="462" alt="Features bg" mt="500"/>
+                    <img className="md:max-w-none mx-auto rounded" src={four} width="700" alt="Features bg" mt="500"/>
                   </div>
                 </Transition>
               </div>
